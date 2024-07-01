@@ -8,18 +8,50 @@
         Title="MainWindow" Height="1000" Width="1500">
     <Grid>
         <Menu x:Name="Menu" IsMainMenu="True" Height="20" Margin="10,0,0,0" VerticalAlignment="Top">
+
+            <!--Main menu-->
             <MenuItem Header="Main">
                 <MenuItem Header="New Map" Command="{Binding newM}" InputGestureText="ctrl+n"/>
                 <MenuItem Header="Save Map" Command="{Binding save}" InputGestureText="ctrl+s"/>
                 <MenuItem Header="Export Map" Command="{Binding export}" InputGestureText="ctrl+e"/>
                 <MenuItem Header="Export Project" Command="{Binding project}" InputGestureText="ctrl+d"/>
                 <MenuItem Header="Quit" Command="{Binding quit}" InputGestureText="ctrl+q"/>
+            </MenuItem>
 
+            <!--Style menu-->
+            <MenuItem Header="Style">
+                <MenuItem Header="Import Asset" Command="{Binding importA}" InputGestureText="ctrl+I"/>
+                <MenuItem Header="Import color Palette" Command="{Binding importP}" InputGestureText="ctrl+O"/>
+                <MenuItem Header="Map Style" Command="{Binding mapStyle}" InputGestureText="ctrl+P"/>
+            </MenuItem>
 
+            <!--Generation menu-->
+            <MenuItem Header="Generate">
+                <MenuItem Header="Random Map" Command="{Binding random}" InputGestureText="ctrl+r"/>
+                <MenuItem Header="Random Stylized Map" Command="{Binding randomStyled}" InputGestureText="ctrl+t"/>
+                <MenuItem Header="Auto Fill" Command="{Binding fillMap}" InputGestureText="ctrl+y"/>
+            </MenuItem>
 
+            <!--Larger Projects menu-->
+            <MenuItem Header="Project">
+                <MenuItem Header="Start World" Command="{Binding createWorld}"/>
+                <MenuItem Header="Update World" Command="{Binding updateWorld}"/>
+                <MenuItem Header="Import Map" Command="{Binding importM}"/>
 
+            </MenuItem>
+
+            <!--Help windows menu-->
+            <MenuItem Header="Help">
 
             </MenuItem>
         </Menu>
+
+        <Grid x:Name="AssetsMenu" Margin="10,20,1140,10">
+            
+        </Grid>
+
+        <Grid x:Name="Map" Margin="364,20,10,15">
+            
+        </Grid>
     </Grid>
 </Window>

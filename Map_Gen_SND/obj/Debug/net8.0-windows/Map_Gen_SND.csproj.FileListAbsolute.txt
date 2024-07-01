@@ -18,3 +18,4 @@ C:\Users\dunfi\source\repos\Map_Gen_SND\Map_Gen_SND\obj\Debug\net8.0-windows\ref
 C:\Users\dunfi\source\repos\Map_Gen_SND\Map_Gen_SND\obj\Debug\net8.0-windows\Map_Gen_SND.pdb
 C:\Users\dunfi\source\repos\Map_Gen_SND\Map_Gen_SND\obj\Debug\net8.0-windows\Map_Gen_SND.genruntimeconfig.cache
 C:\Users\dunfi\source\repos\Map_Gen_SND\Map_Gen_SND\obj\Debug\net8.0-windows\ref\Map_Gen_SND.dll
+C:\Users\dunfi\source\repos\Map_Gen_SND\Map_Gen_SND\obj\Debug\net8.0-windows\Map_Gen_SND.sourcelink.json
